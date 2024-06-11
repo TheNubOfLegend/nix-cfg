@@ -9,7 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ../../imports/nvidia.nix
-      ../../imports
+      ../../imports/default.nix
 #      <home-manager/nixos>
     ];
 
@@ -85,8 +85,6 @@
     dunst
     fastfetch
     #languages
-    zig
-    rustup
   ];
 
 
