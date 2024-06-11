@@ -79,11 +79,11 @@
     bibata-cursors
     unzip
     hyprland
-    zsh
     wl-clipboard
     ironbar
     dunst
     fastfetch
+    zsh
     #languages
   ];
 
