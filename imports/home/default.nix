@@ -1,0 +1,6 @@
+{ self, ... }:
+{
+  imports = [
+    ./neovim.nix
+  ];
+}
