@@ -7,6 +7,5 @@
     ./users.nix
     ./fonts.nix
     ./languages.nix
-    ./pkgs-cfg.nix
   ];
 }

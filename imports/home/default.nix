@@ -1,7 +1,7 @@
 { self, ... }:
 {
   imports = [
-    ./neovim.nix
+#    ./neovim.nix
 #    ./hyprland.nix
   ];
 }

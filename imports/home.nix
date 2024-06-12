@@ -5,8 +5,11 @@
     ./home
   ];
 
+  nixpkgs.config = import ./pkgs-cfg.nix;
 #    programs.zsh.enable = true;
 #    wayland.windowManager.hyprland = import ./home/hyprland.nix;
+
+  home.stateVersion = "24.05";
 
   home.packages = with pkgs; [ 
     pkgs.btop
@@ -14,8 +17,8 @@
     pkgs.zsh
   ];
 
-  home.stateVersion = "24.05";
-  programs.home-manager.enable = true;
+# maybe unnecessary (benley)?
+#  programs.home-manager.enable = true;
 
   home.pointerCursor = {
     gtk.enable = true;
