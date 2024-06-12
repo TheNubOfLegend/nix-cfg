@@ -14,6 +14,7 @@
     pkgs.btop
     pkgs.hyprland
     pkgs.zsh
+    pkgs.nil
   ];
 
 # maybe unnecessary (benley)?

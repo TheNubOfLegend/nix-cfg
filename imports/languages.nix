@@ -5,5 +5,7 @@
     zig
     rustup
     go
+    gcc
+    cmake
   ];
 }

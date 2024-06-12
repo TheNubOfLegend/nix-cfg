@@ -23,7 +23,7 @@
     };
   };
 
-  outputs = { nixpkgs, ... }@inputs: {
+  outputs = { nixpkgs, nur, ... }@inputs: {
     nixosConfigurations = {
       
       nubdesk = nixpkgs.lib.nixosSystem {

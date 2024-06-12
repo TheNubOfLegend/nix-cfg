@@ -4,10 +4,11 @@
   nixpkgs.config = import ./pkgs-cfg.nix;
 
   home-manager = {
-    backupFileExtension = "orig";
+    backupFileExtension = "backup";
 #    useUserPackages = true;
     users.nub = {
       imports = [
+        inputs.nur.hmModules.nur
         ./home.nix
       ];
     };
