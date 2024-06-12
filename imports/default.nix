@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ./nix.nix
     ./home-manager.nix
+    ./nix.nix
     ./users.nix
     ./fonts.nix
     ./languages.nix

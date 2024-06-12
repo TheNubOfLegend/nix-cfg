@@ -9,8 +9,8 @@
     [
       inputs.home-manager.nixosModules.default
       ./hardware-configuration.nix
+      ../../imports/default.nix
       ../../imports/nvidia.nix
-      ../../imports
     ];
 
   # Use the systemd-boot EFI boot loader.

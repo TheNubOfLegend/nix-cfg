@@ -5,7 +5,6 @@
     ./home
   ];
 
-  nixpkgs.config = import ./pkgs-cfg.nix;
 #    programs.zsh.enable = true;
 #    wayland.windowManager.hyprland = import ./home/hyprland.nix;
 
