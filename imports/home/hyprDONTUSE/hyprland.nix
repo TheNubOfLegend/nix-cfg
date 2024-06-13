@@ -36,6 +36,8 @@
     input = {
       follow_mouse = 2;
       sensitivity = -0.7;
+      repeat_rate = 20;
+      repeat_delay = 300;
     };
     misc = {
       force_default_wallpaper = 1;

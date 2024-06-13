@@ -13,12 +13,14 @@
           force = true;
         };
         settings = {
+          "browser.aboutConfig.showWarning" = false;
           "browser.contentblocking.category" = "strict";
           "browser.newtabpage.enabled" = false; # Blank new tab page.
           "browser.send_pings" = false;
           "browser.startup.page" = 3; # Resume last session.
           "browser.theme.toolbar-theme" = 0;
           "browser.theme.content-theme" = 0;
+          "extensions.activeThemeID" = "firefox-compact-dark@mozilla.org";
           "browser.uidensity" = 0;
           "devtools.theme" = "dark"; 
           "dom.security.https_only_mode" = true;
@@ -39,6 +41,7 @@
           "font.name.serif.x-western" = "MesloLGS NF";
           "font.size.variable.x-western" = 16;
           "layout.css.devPixelsPerPx" = 0.8;
+#          "layout.css.prefers-color-scheme.content-override" = 0;
           "privacy.donottrackheader.enabled" = true;
           "privacy.donottrackheader.value" = 1;
           "privacy.firstparty.isolate" = true;

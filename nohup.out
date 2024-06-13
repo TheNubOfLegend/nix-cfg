@@ -1,0 +1,3 @@
+[Parent 31566, Main Thread] WARNING: Cannot launch default application: No application is registered as handling this file: 'glib warning', file /build/firefox-126.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:31566): WARNING **: 19:06:14.278: Cannot launch default application: No application is registered as handling this file

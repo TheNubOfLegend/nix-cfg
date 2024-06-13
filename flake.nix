@@ -4,12 +4,6 @@
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
     
-    #gvlope
-    rycee-nurpkgs = {
-      url = gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons;
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     nur.url = github:nix-community/NUR;
 
     home-manager = {
@@ -17,10 +11,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nixvim = {
-      url = "github:nix-community/nixvim";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
   outputs = { nixpkgs, nur, ... }@inputs: {
