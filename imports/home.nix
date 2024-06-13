@@ -3,6 +3,7 @@
 {
   imports = [
     ./home
+    ./dotfiles/symlink.nix
   ];
 
 #    programs.zsh.enable = true;
@@ -27,6 +28,8 @@
     name = "Bibata-Modern-Ice";
     size = 12;
   };
+
+  xdg.enable = true;
 
   programs.btop = {
     enable = true;
