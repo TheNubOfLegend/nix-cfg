@@ -58,7 +58,8 @@ plugin-load $repos
 source ~/.config/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# INCREDIBLY DUMB SETTING FOR NOW
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 #zoxide setup
 eval "$(zoxide init --cmd cd zsh)"

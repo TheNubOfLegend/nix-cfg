@@ -3,7 +3,8 @@
 {
   imports = [
 #    ./neovim.nix
-#    ./hyprland.nix
+    ./zsh.nix
+    ./hyprland.nix
     ./firefox.nix
   ];
 }

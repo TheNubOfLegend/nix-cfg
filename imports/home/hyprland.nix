@@ -1,6 +1,6 @@
 {
   wayland.windowManager.hyprland = {
     enable = true;
-    settings = {
-      extraConfig = {
-        builtin.readFile ../dotfiles
+    extraConfig = builtins.readFile ../dotfiles/hypr/hyprland.conf;
+  };
+}
